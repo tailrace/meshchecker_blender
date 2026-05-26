@@ -1,3 +1,9 @@
+links:
+artstation: https://www.artstation.com/sumanhere
+instagram: https://www.instagram.com/sumanghost/
+mail: rrip1suman@gmail.com
+
+
 # MeshChecker v2.0 - Advanced Mesh Validation for Blender
 
 An enhanced Blender addon for comprehensive mesh validation before export, featuring error tracking, visual feedback, and batch checking.
@@ -76,7 +82,7 @@ Available in the UV/Image Editor:
 - `N` - Toggle sidebar (where the addon panel is located)
 
 ## Requirements
-- Blender 4.0 or higher
+- Blender 5.0 or higher
 
 ## Version History
 
