@@ -163,29 +163,7 @@ class VIEW3D_PT_ngon_validator(bpy.types.Panel):
 
         layout.separator()
         
-        # ======================
-        # ADDITIONAL CHECKS - Keeping original position
-        # ======================
-        if obj and obj.type == 'MESH':
-            col = layout.column(align=True)
-            col.operator("object.detect_non_planar_faces", icon='MESH_GRID')
-
-            col = layout.column(align=True)
-            col.operator("mesh.detect_non_manifold", icon='MESH_CUBE')
-
-            layout.separator()
-            col = layout.column(align=True)
-            col.operator("uvchk.face_orientation", icon='MESH_CUBE')
-
-            layout.separator()
-
-            col = layout.column(align=True)
-            col.operator("chk.show_sharp_edges", icon='MOD_DISPLACE')
-            col.operator("chk.zero_geo", icon='MOD_CAST')
-            col.operator("chk.show_open_edges", icon='MOD_EDGESPLIT')
-        
-        layout.separator()
-        layout.separator()
+       
         
         # ======================
         # FBX EXPORT FOR UNREAL - AT BOTTOM
